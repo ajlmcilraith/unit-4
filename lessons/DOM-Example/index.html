@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM - EXAMPLE</title>
+</head>
+<body>
+  <header>
+    <h1 id="header">DOCUMENT OBJECT MODEL (DOM)</h1>
+  </header>
+  <main>
+    <h1>
+    Paragraph Title Here
+    </h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint tempora dolore aliquid optio non sed neque quo vel itaque a! Dolorem explicabo molestiae maiores eius quisquam saepe. Animi molestiae laudantium harum totam, modi voluptatem ratione aliquam at numquam laboriosam sunt eos eligendi facere quisquam quaerat amet, odio dignissimos nesciunt debitis.</p>
+
+<!-- List Items -->
+
+<h3>Here are the following errors</h3>
+
+<!--  li*3.error-list -->
+<ul>
+  <li class="error-list">Error 1</li>
+  <li class="error-list">Error 2</li>
+  <li class="error-list">Error 3</li>
+</ul>
+
+<!-- Notes Table -->
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Node List, HTML Collection, Element</th>
+    <th>Single or Multiple</th>
+    <th>Looping Through It</th>
+  </tr>
+  <tr>
+    <td>getElementByID()</td>
+    <td>Element</td>
+    <td>Single</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>getElementsByClassName()</td>
+    <td>HTML collection(array)</td>
+    <td>Mulitple</td>
+    <td>Yes - but not with a forEach()</td>
+  </tr>
+  <tr>
+    <td>getElementsByTagName()</td>
+    <td>same as above</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>querySelector()</td>
+    <td>Node list</td>
+    <td>Mulitple</td>
+    <td></td>
+  </tr>yes - even a forEach()
+  <tr>
+    <td>querySelectorAll()</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+  </main>
+
+<script>
+  console.log("From the HTML PAGE SCRIPT TAGS")
+</script>
+
+<script src="./index.js"></script>
+</body>
+</html>
