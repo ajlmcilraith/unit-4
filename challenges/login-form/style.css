@@ -1,0 +1,35 @@
+body {
+  background-color: aliceblue;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 30em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: thick double pink;
+  text-align: center;
+  width: 40vw;
+  height: 40%;
+}
+
+.email, .password {
+  height: 16px;
+  border: 2px double rgb(108, 190, 231)
+}
+/* button {
+  
+} */
